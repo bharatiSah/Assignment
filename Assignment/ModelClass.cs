@@ -8,83 +8,82 @@ namespace Assignment
 {
     class ModelClass
     {
-        public class Student
-        {
-            private int _Id;
-            public int Id
-            {
-             set { _Id = value;      }
-             get { return _Id; }
-            }
-            private string _studentname;
+       //    public class Student
+    //    {
+    //        private int _Id;
+    //        public int Id
+    //        {
+    //         set { _Id = value;      }
+    //         get { return _Id; }
+    //        }
+    //        private string _studentname;
 
-            public string StudentName
+    //        public string StudentName
 
-            { set  { _studentname = value ; }
-                get{return _studentname ; }
-            }
+    //        { set  { _studentname = value ; }
+    //            get{return _studentname ; }
+    //        }
 
             
-        }
-        public class Course
-        {
-            private int _CourseId;
-            public int CourseId
-            {
-                set { _CourseId = value; }
-                get { return _CourseId; }
-            }
-            private string _CourseName;
+    //    }
+    //    public class Course
+    //    {
+    //        private int _CourseId;
+    //        public int CourseId
+    //        {
+    //            set { _CourseId = value; }
+    //            get { return _CourseId; }
+    //        }
+    //        private string _CourseName;
 
-            public string CourseName
+    //        public string CourseName
 
-            {
-                set { _CourseName = value; }
-                get { return _CourseName; }
-            }
+    //        {
+    //            set { _CourseName = value; }
+    //            get { return _CourseName; }
+    //        }
 
-        }
+    //    }
 
-        public class Professors
-        {
-            private int _CourseId;
-            public int CourseId
-            {
-                set { _CourseId = value; }
-                get { return _CourseId; }
-            }
-            private string _ProfessorName;
+    //    public class Professors
+    //    {
+    //        private int _CourseId;
+    //        public int CourseId
+    //        {
+    //            set { _CourseId = value; }
+    //            get { return _CourseId; }
+    //        }
+    //        private string _ProfessorName;
 
-            public string ProfessorName
+    //        public string ProfessorName
 
-            {
-                set { _ProfessorName = value; }
-                get { return _ProfessorName; }
-            }
-
-
-        }
-
-        public class StudentEnrollment
-        {
-            private int _StudentId;
-            public int StudentId
-            {
-                set { _StudentId = value; }
-                get { return _StudentId; }
-            }
-            private int _CourseId;
-
-            public int CourseId
-
-            {
-                set { _CourseId = value; }
-                get { return _CourseId; }
-            }
+    //        {
+    //            set { _ProfessorName = value; }
+    //            get { return _ProfessorName; }
+    //        }
 
 
-        }
+    //    }
 
+       //public class StudentEnrollment
+       // {
+       //     private int _StudentId;
+       //     public int StudentId
+       //     {
+       //         set { _StudentId = value; }
+       //         get { return _StudentId; }
+       //     }
+       //     private int _CourseId;
+
+       //     public int CourseId
+
+       //     {
+       //         set { _CourseId = value; }
+       //         get { return _CourseId; }
+       //     }
+
+
+       // }
         public class WholeDetails
         {
             private string _StudentName;
